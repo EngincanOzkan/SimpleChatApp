@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- <link rel="stylesheet" type="text/css" href="style.css"> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.0.4/socket.io.js"></script>
+    <title>Basit Chat App</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Basit Chat</h1>
+    </header>
+
+    <section>
+	    <input id="username" type="text" />
+	    <button id="send_username" type="button">Kullanıcı Adı Değiştir</button>
+    </section>
+    
+    <section> 
+      <input id="message" type="text" />
+      <button id="send_message" type="button">Gönder</button>
+    </section>
+
+    <section id="messages_display">
+      <!--gelen mesajlar buraya eklenecek-->
+    </section>
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="chat.js"></script>
+  </body>
+</html>
